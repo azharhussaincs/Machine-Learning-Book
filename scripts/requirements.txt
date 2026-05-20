@@ -1,0 +1,6 @@
+# Build-time tools for the book (PDF + diagrams + slide deck).
+# Install with:  python3 -m pip install -r scripts/requirements.txt
+# (Pandoc is a system package, install separately: https://pandoc.org)
+weasyprint>=60
+matplotlib>=3.7
+python-pptx>=0.6
